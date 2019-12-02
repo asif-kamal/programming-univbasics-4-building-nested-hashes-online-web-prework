@@ -7,7 +7,8 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  hash = {:railroads => {:pieces => 4, 
+  hash = {:railroads => 
+  {:pieces => 4, 
   
   :rent_in_dollars => {
    :one_piece_owned => 25,
@@ -26,7 +27,8 @@ def monopoly_with_third_tier
 end
 
 def monopoly_with_fourth_tier
-    hash = {:railroads => {:pieces => 4, 
+    hash = {:railroads => 
+    {:pieces => 4, 
   
   :rent_in_dollars => {
    :one_piece_owned => 25,
